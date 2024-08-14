@@ -16,7 +16,7 @@ function App() {
       <Layout>
         <Layout.Header style={{ backgroundColor: '#ccc' }}>
           <Flex align="center" justify="space-between" style={containerStyle}>
-            <div style={{ fontSize: 24 }}>RaiGallery</div>
+            <div style={{ fontSize: 24 }}>NFT Market</div>
             <Space>
               <SellButton />
               <MintButton />

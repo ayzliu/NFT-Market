@@ -13,15 +13,15 @@ function NftCardFooter(props: NftCardFooterProps) {
   return (
     <div className="NftCardFooter">
       <div>
-        <span>合约地址</span>
+        <span>Contract Address</span>
         <Address address={dataSource.nftContract} ellipsis={{ headClip: 8, tailClip: 6 }} copyable />
       </div>
       <div>
-        <span>卖家地址</span>
+        <span>Seller Address</span>
         <Address address={dataSource.seller} ellipsis={{ headClip: 8, tailClip: 6 }} copyable />
       </div>
       <div>
-        <span>上架时间</span>
+        <span>Listing Time</span>
         <span>{dayjs(Number(dataSource.listedAt) * 1000).format('YYYY-MM-DD HH:mm:ss')}</span>
       </div>
     </div>
