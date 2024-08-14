@@ -82,7 +82,7 @@ function NftList() {
             <NFTCard
               key={`${nft.nftContract}#${nft.tokenId}`}
               tokenId={nft.tokenId}
-              price={{ value: nft.price, decimals: 2, symbol: 'RAIC' }}
+              price={{ value: nft.price, decimals: 2, symbol: 'NFT' }}
               image={nft.tokenUrl || DEFAULT_IMAGE}
               footer={<NftCardFooter dataSource={nft} />}
               showAction
